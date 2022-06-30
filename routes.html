@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="./js/script.js"></script>
+	<title>Putivoditel360</title>
+</head>
+<body>
+	<!--Логотип-->
+	<div class="logo"></div>
+
+	<!--Бургер-->
+	<div class="burger"><i class="fa-2xl fa-solid fa-bars"></i></div>
+
+	<!--Меню-->
+	<div class="nav">
+		
+
+		<ul class="nav__menu">
+			<li class="nav__menu_item"><a href="./index.html"class = "menu_item-link">Дом</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Маршруты</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">О проекте</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Продукты</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Помощь</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Язык</a> </li>
+		</ul>
+	</div>
+
+	<!--Основная страница-->
+
+	<div class="background">
+		
+		<div class="title">
+			<h1 class="title__head">
+				Маршруты
+			<br>
+			</h1>
+			</div>
+
+		<div class="routes">
+
+			<!--Левый столбец-->
+			<!--Гора Муелды-->
+			<div class="routes__midle collum">
+				<div class="billet">
+					<img class="billet__img" src="./img/mueldy.JPG" alt="здесь картинка">
+					<div class="billet__select">
+						<h1 class="billet__head">Гора Муелды</h1>
+						
+						<div class="billet__btn">
+							<a href="" class="billet__btn_link"><span>Начать тур</span></a>
+						</div>
+					</div>
+				</div>
+
+				<!--Кызылаыдрское карствое поле-->  
+
+				<div class="billet">
+					<img class="billet__img" src="./img/kyziladyr.JPG" alt="здесь картинка">
+					<div class="billet__select">
+						<h1 class="billet__head">Кызылаыдрское карствое поле</h1>
+						
+						<div class="billet__btn">
+							<a href="" class="billet__btn_link"><span>Начать тур</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			<!--Средний столбец-->
+			<!--Нос гора-->
+			<div class="routes__midle">
+				
+				<div class="billet">
+					<img class="billet__img" src="./img/nose.JPG" alt="здесь картинка">
+					<div class="billet__select">
+						<h1 class="billet__head">Нос гора</h1>
+						
+						<div class="billet__btn">
+							<a href="" class="billet__btn_link"><span>Начать тур</span></a>
+						</div>
+					</div>
+				</div>
+
+				<!--Соленое урочище-->
+			
+				<div class="billet">
+					<img class="billet__img" src="./img/nose.JPG" alt="здесь картинка">
+					<div class="billet__select">
+						<h1 class="billet__head">Соленое урочище</h1>
+						
+						<div class="billet__btn">
+							<a href="" class="billet__btn_link"><span>Начать тур</span></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!--Правый столбец-->
+			<!--Медеплавильные печи-->
+			<div class="routes__midle">
+				<div class="billet">
+					<img class="billet__img" src="./img/cuprum.JPG" alt="здесь картинка">
+					<div class="billet__select">
+						<h1 class="billet__head">Медеплавильные печи</h1>
+						
+						<div class="billet__btn">
+							<a href="" class="billet__btn_link"><span>Начать тур</span></a>
+						</div>
+					</div>
+				</div>
+
+				<!--Пещера подарок-->
+			
+				<div class="billet">
+					<img class="billet__img" src="./img/cuprum.JPG" alt="здесь картинка">
+					<div class="billet__select">
+						<h1 class="billet__head">Пещера "Подарок"</h1>
+						
+						<div class="billet__btn">
+							<a href="" class="billet__btn_link"><span>Начать тур</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<footer class="footer"></footer>
+
+
+	<script type="text/javascript">
+
+		
+
+		let burger = document.querySelector('.burger');
+		burger.addEventListener("mouseover", function(){
+			document.getElementsByClassName('nav')[0].style = "overflow: visible";
+		});
+
+		let nav = document.querySelector('.nav')
+
+		nav.addEventListener("mouseover", function(){
+			 document.getElementsByClassName('nav')[0].style = "overflow: visible";
+		});
+
+		nav.addEventListener("mouseout", function(){
+			 document.getElementsByClassName('nav')[0].style = "overflow: hidden";
+		});
+
+		
+
+	</script>
+</body>
+</html>
