@@ -1,0 +1,129 @@
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+.background{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+.title__head {
+	font-weight: bold;
+	margin: 34px 0 20px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 19px;
+	line-height: 1.5;
+	font-size: 40px;
+
+}
+
+.title__buttons_one{
+	border: 1px solid;
+	width: 177px;
+	height: 37px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 11px;
+}
+
+.title__buttons{
+	margin-top: 35px;
+}
+/*.background{
+	background-image: url("../img/background.jpg");
+	background-size: 200vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}*/
+
+.buttons_one-link{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+}
+
+
+/*страница Routes*/
+
+.routes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 72px;
+	margin-top: 19px;
+}
+
+.billet{
+	width: 250px;
+	height: 250px;
+	margin-top: 32px;
+	align-content: center;
+
+}
+
+.billet__img{
+	width: 250px;
+	height: 250px;
+}
+
+.billet__not{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.billet__btn{
+	border: 3px solid 	#ffffff;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	margin-left: 30px;
+	height: 17px;
+	width: 157.5px;
+	font-family: 'Open Sans', sans-serif;
+	z-index: 999999;
+	position: fixed;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+
+}
+
+
+
+.billet__head{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+
+}
+
+.billet__select{
+	color: white;
+	text-align: center;
+	margin-top: -183px;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 18px;
+	padding-left: 7px;
+	margin-top: -213px;
+}
+
+
+.billet__btn_link{
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.billet__btn:hover{
+	background-color: #ff0300;
+	border: none;
+}

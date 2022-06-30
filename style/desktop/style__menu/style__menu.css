@@ -1,0 +1,16 @@
+.nav {
+	display: flex;
+	width: 160px;
+	height: 21px;
+	overflow: hidden;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li>a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}

@@ -1,0 +1,5 @@
+/*Стили десктопа*/
+@import url("./desktop/style__menu/style__menu.css");
+@import url("./desktop/style__logo/style__logo.css");
+@import url("./desktop/style__burger/style__burger.css");
+@import url("./desktop/style__desktop/style__desktop.css");
