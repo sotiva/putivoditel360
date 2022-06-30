@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="./js/script.js"></script>
+	<title>Putivoditel360</title>
+</head>
+<body class="desktop__portrait">
+	<!--Логотип-->
+	<div class="logo"></div>
+
+	<!--Бургер-->
+	<div class="burger"><i class="fa-2xl fa-solid fa-bars"></i></div>
+
+	<!--Меню-->
+	<div class="nav">
+		
+
+		<ul class="nav__menu">
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Дом</a> </li>
+			<li class="nav__menu_item"><a href="./routes.html"class = "menu_item-link">Маршруты</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">О проекте</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Продукты</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Помощь</a> </li>
+			<li class="nav__menu_item"><a href="#"class = "menu_item-link">Язык</a> </li>
+		</ul>
+	</div>
+
+	<!--Основная страница-->
+
+	<div class="background">
+		
+		<div class="title">
+			<h1 class="title__head">
+				Путеводитель360
+			<br>
+			<span class="title__text">#project</span>
+			<br>
+			Начните путешествие здесь
+			</h1>
+			<div class="title__notice">
+				<p class="title__notice_paragraph"> Интерактивные путешествия по Оренбургской области</p>
+				<div class="title__buttons">
+					<div class="title__buttons_one"> <a href="./routes.html" class="buttons_one-link"> Выбрать маршрут</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer"></footer>
+	<script type="text/javascript">
+
+		
+
+		let burger = document.querySelector('.burger');
+		burger.addEventListener("mouseover", function(){
+			document.getElementsByClassName('nav')[0].style = "overflow: visible";
+		});
+
+		let nav = document.querySelector('.nav')
+
+		nav.addEventListener("mouseover", function(){
+			 document.getElementsByClassName('nav')[0].style = "overflow: visible";
+		});
+
+		nav.addEventListener("mouseout", function(){
+			 document.getElementsByClassName('nav')[0].style = "overflow: hidden";
+		});
+
+		
+
+	</script>
+</body>
+</html>
