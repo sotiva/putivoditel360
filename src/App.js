@@ -1,11 +1,12 @@
+import Menu from './components/Menu/Menu';
  
- 
-
 function App() {
+  
   return (
     <div>
-      <h1>Putevoditel360</h1>
-    </div>
+       
+      <Menu></Menu>
+    </div> 
   );
 }
 
