@@ -25,12 +25,12 @@ function Menu()  {
 		
 
 		<ul class="nav__menu">
-			<li className="nav__menu_item"><a href="#" className = "menu_item-link">Дом</a> </li>
-			<li className="nav__menu_item"><a href="./routes.html"className = "menu_item-link">Маршруты</a> </li>
-			<li className="nav__menu_item"><a href="#"className = "menu_item-link">О проекте</a> </li>
-			<li className="nav__menu_item"><a href="#"className = "menu_item-link">Продукты</a> </li>
-			<li className="nav__menu_item"><a href="#"className = "menu_item-link">Помощь</a> </li>
-			<li className="nav__menu_item"><a href="#"className = "menu_item-link">Язык</a> </li>
+			<li className="nav__menu_item"><a href="./#" className = "menu_item-link">Дом</a> </li>
+			<li className="nav__menu_item"><a href="./#" className = "menu_item-link">Маршруты</a> </li>
+			<li className="nav__menu_item"><a href="./#"className = "menu_item-link">О проекте</a> </li>
+			<li className="nav__menu_item"><a href="./#"className = "menu_item-link">Продукты</a> </li>
+			<li className="nav__menu_item"><a href="./#"className = "menu_item-link">Помощь</a> </li>
+			<li className="nav__menu_item"><a href="./#"className = "menu_item-link">Язык</a> </li>
 		</ul>
 	</div>
       </div>
