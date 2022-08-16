@@ -24,7 +24,7 @@ function Menu()  {
         <div className="nav">
 		
 
-		<ul class="nav__menu">
+		<ul className="nav__menu">
 			<li className="nav__menu_item"><a href="./#" className = "menu_item-link">Дом</a> </li>
 			<li className="nav__menu_item"><a href="./#" className = "menu_item-link">Маршруты</a> </li>
 			<li className="nav__menu_item"><a href="./#"className = "menu_item-link">О проекте</a> </li>

@@ -1,19 +1,20 @@
-function Plate (){
-	const title = 'Гора Муелды';
+function Plate (props){
+	 
 
     return(
-        <div>
-            <div class="billet">
-					 
-					<div class="billet__select">
-						<h1 class="billet__head">{title}</h1>
+       
+            <div className="billet">
+					<div className="billet__select">
+						<h1 className="billet__head">{props.title}</h1>
+
+						 <img src={props.image}></img>
 						
-						<div class="billet__btn">
-							<a href="./#" class="billet__btn_link"><span>Начать тур</span></a>
+						<div className="billet__btn">
+							<a href="./#" className="billet__btn_link"><span>Начать тур</span></a>
 						</div>
 					</div>
 				</div>
-        </div>
+        
     )
 }
 
