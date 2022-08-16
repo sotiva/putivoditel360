@@ -5,12 +5,11 @@ function App() {
   return (
      
     <div>
-      <Menu/>
-      <Plates/>
-      <Plates/>
-      <Plates/>
-      <Plates/>
-      <Plates/>
+       
+       <Menu/>
+       <Plates/>
+       <Plates/>
+       <Plates/>
     </div>
     
   );
