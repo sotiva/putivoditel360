@@ -1,3 +1,4 @@
+import './plates_style.css';
 function Plate (props){
 	 
 
@@ -7,7 +8,7 @@ function Plate (props){
 					<div className="billet__select">
 						<h1 className="billet__head">{props.title}</h1>
 
-						 <img src={props.image}></img>
+						<img src={props.image} alt='alt_text'></img>
 						
 						<div className="billet__btn">
 							<a href="./#" className="billet__btn_link"><span>Начать тур</span></a>

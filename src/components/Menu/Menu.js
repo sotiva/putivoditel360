@@ -1,24 +1,28 @@
 import  './style__burger.css';
 import './style__menu.css';
 function Menu()  {
-  
-  let burger = document.querySelector('.burger');
-		burger.addEventListener("mouseover", function(){
-			document.getElementsByClassName('nav')[0].style = "overflow: visible";
-		});
 
-		let nav = document.querySelector('.nav')
-
-		nav.addEventListener("mouseover", function(){
-			 document.getElementsByClassName('nav')[0].style = "overflow: visible";
-		});
-
-		nav.addEventListener("mouseout", function(){
-			 document.getElementsByClassName('nav')[0].style = "overflow: hidden";
-		});
-  
-    
+	function MenuHide(){
+   
+		let burger = document.querySelector('.burger');
+			burger.addEventListener("mouseover", function(){
+				document.getElementsByClassName('nav')[0].style = "overflow: visible";
+			});
+	
+			let nav = document.querySelector('.nav')
+	
+			nav.addEventListener("mouseover", function(){
+				 document.getElementsByClassName('nav')[0].style = "overflow: visible";
+			});
+	
+			nav.addEventListener("mouseout", function(){
+				 document.getElementsByClassName('nav')[0].style = "overflow: hidden";
+			});
+			
+		}
+    	 
     return  (
+	
       <div>
         <div className="burger"><i class="fa-2xl fa-solid fa-bars"></i></div>
         <div className="nav">
